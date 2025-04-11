@@ -18,7 +18,7 @@ def connect_to_db():
         return mysql.connector.connect(
             host="localhost",
             user="root",
-            password="2004",
+            password="****",
             database="attendance_system"
         )
     except mysql.connector.Error as err:
